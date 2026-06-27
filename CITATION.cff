@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+
+title: "Genomic analysis of *Pseudomonas aeruginosa* recovered from surgical site infections from a referral hospital in Western Kenya reveals dominance of high-risk subtypes"
+
+message: "If you use this repository, please cite it as follows."
+
+type: software
+
+authors:
+  - family-names: Mogoi
+    given-names: Nicholas Nyabera
+    orcid: "https://orcid.org/0009-0005-5395-4953"
+
+repository-code: "https://github.com/N-mogoi/genomic_analyses_PA_WKenya"
+
+license: MIT
+
+abstract: >
+  R scripts for antimicrobial susceptibility analyses,
+  comparative genomics, quorum-sensing analyses,
+  statistical testing, and generation of  publication figures. All these
+  accompany the manuscript describing
+  genomic analyses of Pseudomonas aeruginosa isolates
+  recovered from surgical site infections in western Kenya.
+
+keywords:
+  - Pseudomonas aeruginosa
+  - whole-genome sequencing
+  - comparative genomics
+  - antimicrobial resistance
+  - quorum sensing
+  - genomic islands
+  - surgical site infection
+  - R
+
+version: "1.0.0"
+
+date-released: "2026-06-27"

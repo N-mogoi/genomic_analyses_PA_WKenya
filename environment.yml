@@ -1,0 +1,31 @@
+name: genomic_analyses_PA_WKenya
+
+channels:
+  - conda-forge
+
+dependencies:
+  - r-base=4.4.3
+
+  # Core packages
+  - r-tidyverse
+  - r-ggplot2
+
+  # Heatmaps
+  - r-complexheatmap
+  - r-circlize
+
+  # Statistics
+  - r-rstatix
+  - r-broom
+
+  # Figure assembly
+  - r-patchwork
+  - r-ggpubr
+
+  # Optional utilities
+  - r-readr
+  - r-stringr
+  - r-gridextra
+
+  # Install Bioconductor packages
+  - bioconductor-complexheatmap

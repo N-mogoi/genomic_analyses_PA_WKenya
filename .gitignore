@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Logs
+*.log
+
+# Generated figures
+*.png
+*.pdf
+*.svg
+*.tiff
+*.jpeg
+*.jpg
+
+# Generated tables
+results/*.csv
+results/*.xlsx
+
+# Cache
+cache/
