@@ -179,9 +179,9 @@ location_cols <- c(
   
   "0" = "white",
   
-  "1" = "#fdb863",
+  "1" = "#0072B2", #core chromosome
   
-  "2" = "#b2182b"
+  "2" = "#CC79A7" #Genomic island
   
 )
 
