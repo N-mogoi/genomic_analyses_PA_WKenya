@@ -2,8 +2,7 @@
 # Figure 2
 # Antibiotic susceptibility correlation analysis
 # Spearman correlation coefficients and P-values
-# ===================================================
-
+# ==================================================
 # --------------------------
 # Load packages
 # -----------
@@ -99,10 +98,30 @@ write.csv(
 )
 
 # --------------------------
+#Colour palette:
+#
+# Negative correlations = blue
+# No correlation         = white
+# Positive correlations = orange
+#
+# This replaces the previous red-green palette.
+# Blue-orange is more suitable for readers with
+# red-green colour-vision deficiencies.
+#
+# The scale is also centred at zero so that positive
+# and negative correlations are visually balanced.
+
+correlation_palette <- colorRampPalette(
+  c(
+    "#2166AC",   # Blue: strong negative correlation
+    "#F7F7F7",   # Very light grey/white: no correlation
+    "#E66101"    # Orange: strong positive correlation
+  )
+)(200)
+
 # --------------------------
-# Generate figure
-# Show all correlations
-# 
+# Save high-resolution figure
+# ------------
 
 png(
   "Figure2_CorrelationMatrix.png",
@@ -112,44 +131,60 @@ png(
 )
 
 par(
-  mar = c(2, 2, 2, 2)
-)
+  mar = c(2, 2, 2, 2))
+
+# ------------------
+# Correlation matrix
+# --------------------------
 
 corrplot(
   cor_mat,
   
+  # Display correlations using colour
   method = "color",
   
+  # Display only the upper triangle
   type = "upper",
   
+  # Add numerical Spearman rho values
+  # so that interpretation does not depend
+  # on colour alone
   addCoef.col = "black",
   
+  # Size of correlation coefficients
   number.cex = 0.8,
   
+  # Add cell borders
   addgrid.col = "black",
   
+  # Axis label colour
   tl.col = "black",
   
+  # Rotate antibiotic labels
   tl.srt = 45,
   
+  # Axis label size
   tl.cex = 0.9,
   
+  # Colour legend text size
   cl.cex = 1.1,
   
+  # Do not display the diagonal
   diag = FALSE,
   
-  col = colorRampPalette(
-    c(
-      "red",   # negative
-      "white",     # neutral
-      "green"    # positive
-    )
-  )(200)
+  # Accessibility-friendly diverging palette
+  col = correlation_palette,
   
+  # Force the colour scale to run from
+  # -1 (perfect negative correlation)
+  # through 0 (no correlation)
+  # to +1 (perfect positive correlation)
+  cl.lim = c(-1, 1)
 )
 
 
 dev.off()
 
-#End of Figure 2
+# End of Figure 2
+
 
