@@ -93,7 +93,7 @@ Contact
 
 Ncholas Mogoi
 
-School for Data Science and Computational Thinking, Centre for Epidemic Response and Innovation, Stellenbosch University
+Centre for Epidemic Response and Innovation, School for Data Science and Computational Thinking, Stellenbosch University, Stellenbosch, South Africa
 
 Email: mogoinn67@gmail.com
 
