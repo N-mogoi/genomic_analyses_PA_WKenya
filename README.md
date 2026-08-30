@@ -1,6 +1,8 @@
 # Genomic analysis of *Pseudomonas aeruginosa* recovered from surgical site infections from a referral hospital in Western Kenya reveals dominance of high-risk subtypes
 
-This repository contains the R scripts used for the analyses, statistics, and figure generation accompanying the manuscript: Kindiki, (Sarah, Kiprono, Sabella, Reva, Oleg, Nyongesa, Peter Kuloba, Mogoi, Nyabera Nicholas, Welch, Martin, Sifuna, Anthony, Genomic Analysis of Pseudomonas aeruginosa Recovered From Surgical Site Infections From a Referral Hospital in Western Kenya Reveals Dominance of High-Risk Subtypes, International Journal of Microbiology, 2026, 3640494, 16 pages, 2026. https://doi.org/10.1155/ijm/3640494)
+This repository contains the R scripts used for the analyses, statistics, and figure generation accompanying the manuscript: 
+
+Kindiki, Sarah, Kiprono, Sabella, Reva, Oleg, Nyongesa, Peter Kuloba, Mogoi, Nyabera Nicholas, Welch, Martin, Sifuna, Anthony, Genomic Analysis of Pseudomonas aeruginosa Recovered From Surgical Site Infections From a Referral Hospital in Western Kenya Reveals Dominance of High-Risk Subtypes, International Journal of Microbiology, 2026, 3640494, 16 pages, 2026. https://doi.org/10.1155/ijm/3640494)
 
 ---
 
