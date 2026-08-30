@@ -91,7 +91,7 @@ Contact
 
 Ncholas Mogoi
 
-Bioinformatics Unit, Centre for Epidemic Response and Innovation, Faculty of Medicine and Health Sciences, Stellenbosch University
+School for Data Science and Computational Thinking, Centre for Epidemic Response and Innovation, Stellenbosch University
 
 Email: mogoinn67@gmail.com
 
